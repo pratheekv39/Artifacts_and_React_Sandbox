@@ -1,6 +1,6 @@
-# LlamaCoder
+# Artifacts
 
-LlamaCoder is a Next.js application that generates React applications using Llama 3.1 405B through Together AI's API. It allows users to create React applications with a single prompt.
+Artifacts is a Next.js application that generates React applications using Llama 3.1 405B through Together AI's API. It allows users to create React applications with a single prompt.
 
 ## Features
 
