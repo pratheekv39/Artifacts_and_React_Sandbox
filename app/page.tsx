@@ -248,12 +248,12 @@ export default function Page() {
           <div className="flex items-center justify-center gap-3">
             <SparklesIcon className="w-10 h-10 text-blue-500" />
             <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              LlamaCoder
+              Artifacts
             </h1>
             <SparklesIcon className="w-10 h-10 text-purple-500" />
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Generate interactive React applications with a single prompt using Llama 3.1 405B
+            Generate interactive React applications with a single prompt
           </p>
         </div>
 
