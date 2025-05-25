@@ -45,7 +45,10 @@ COMPONENT FEATURES:
 - Add proper accessibility attributes
 - Use semantic HTML elements
 
-IMPORTANT: Start your response with "import" and end with the closing brace of the export. No other text.`;
+IMPORTANT: Start your response with "import" and end with the closing brace of the export. No other text.
+
+- Do NOT use or import any external libraries (such as react-icons, zod, hookform, etc.). Only use React, TypeScript, and browser APIs.
+- If you need icons, use simple Unicode emoji or SVG inline in the code.`;
 
 const fixPrompt = `You are an expert React developer. The user wants to modify the existing React component code.
 
@@ -68,7 +71,10 @@ When fixing or modifying:
 
 IMPORTANT: Your response must start with "import" and end with the closing brace of the export. Nothing else.
 
-Current code is provided below. Modify it according to the user's request and return ONLY the complete updated code.`;
+Current code is provided below. Modify it according to the user's request and return ONLY the complete updated code.
+
+- Do NOT use or import any external libraries (such as react-icons, zod, hookform, etc.). Only use React, TypeScript, and browser APIs.
+- If you need icons, use simple Unicode emoji or SVG inline in the code.`;
 
 export async function POST(req: Request) {
   try {
