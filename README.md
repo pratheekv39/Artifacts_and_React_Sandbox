@@ -20,7 +20,7 @@ Artifacts is a Next.js application that generates React applications using Llama
 
 1. Clone the repository:
 ```bash
-[git clone <repository-url>](https://github.com/pratheekv39/Artifacts_and_React_Sandbox.git)
+git clone https://github.com/pratheekv39/Artifacts_and_React_Sandbox.git
 cd Artifacts_and_React_Sandbox.git
 ```
 
